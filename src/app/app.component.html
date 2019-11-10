@@ -1,0 +1,12 @@
+<div class="container">
+    <button [style.marginLeft]="10+'px'" [style.fontSize]="1.5+'rem'" mat-button [matMenuTriggerFor]="menu">EventRipper</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/event" routerLinkActive="active">Events</button>
+        <button mat-menu-item routerLink="/home" routerLinkActive="active">Home</button>
+    </mat-menu>
+</div>
+
+<router-outlet></router-outlet>
+
+
+

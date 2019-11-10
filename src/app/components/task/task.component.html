@@ -1,0 +1,22 @@
+<div class="task">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+        <div class="task-name">
+            <mat-panel-title>
+                {{ task.description }}
+            </mat-panel-title>
+        </div>
+        <!-- <mat-panel-description>
+
+        </mat-panel-description> -->
+        </mat-expansion-panel-header>
+        <!-- Add comment section here -->
+        <app-comments
+            [taskId]="task.id"
+        >
+
+        </app-comments>
+
+    </mat-expansion-panel>
+</div>
+

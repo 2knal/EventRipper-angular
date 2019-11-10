@@ -1,0 +1,12 @@
+.comment-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px 5px;
+}

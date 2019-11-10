@@ -1,0 +1,12 @@
+<div class="comment-section">
+    <app-comment *ngFor="let comment of comments" [comment]="comment">
+
+    </app-comment>
+    <div class="comment-submit">
+        <mat-form-field [style.width]="40+'vw'" [style.fontSize]="1.1+'rem'">
+            <textarea id="{{ taskId }}" matInput placeholder="Leave a comment"></textarea>
+        </mat-form-field>
+
+        <button mat-button [style.margin]="10+'px'" [style.padding]="5+'px'" (click)="handleComment()">Submit </button>
+    </div>
+</div>
