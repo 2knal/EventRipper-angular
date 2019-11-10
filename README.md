@@ -17,7 +17,7 @@ Execute the following command to build the image:
 Later run the container as follows: 
 <br> 
 `docker run -p 8080:80 my-app`
-<br>
+<br><br>
 Visit `http://localhost:8080` in your browser.
 
 ---
